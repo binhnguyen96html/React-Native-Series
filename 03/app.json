@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "03",
+    "name": "My Recipe Book",
     "slug": "03",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,16 +13,25 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.binhnguyen.myrecipebook"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.binhnguyen.myrecipebook"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0ff40c91-c7c3-415c-84de-0fe1a1db8c0a"
+      }
     }
   }
 }
